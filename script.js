@@ -1,6 +1,11 @@
 // Declare variables below to save the different divs of your story.
 
-
+  let optionOne = document.querySelector(".option-one"); 
+  let optionTwo = document.querySelector(".option-two"); 
+  let optionOneScreen = document.querySelector(".option-one-screen");
+let optionTwoScreen = document.querySelector(".option-two-screen");
+  // let optionThree = "Answer the Phone Call";
+  // let optionFour = "Ignore and go back to sleep";
 
 
 
@@ -12,15 +17,15 @@
 //  - Then fill in the blanks with the correct variables.
 
 
-// INSERT_VARIABLE.addEventListener('click', function(){
+  optionOne.addEventListener('click', function(){
+optionOneScreen.style.display = "none";
+});
 
-// });
+  optionTwo.addEventListener('click', function(){
 
-// INSERT_VARIABLE.addEventListener('click', function(){
-
-// });
+});
 
 
-// INSERT_VARIABLE.addEventListener('click', function(){
+// optionThree.addEventListener('click', function(){
 
 // });
