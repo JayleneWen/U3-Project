@@ -5,7 +5,9 @@
 .option-two-screen, 
 .option-one-end, 
 .option-two-end,
-.button2 {
+.button2,
+.button3
+{
    display:none;
 }
 
