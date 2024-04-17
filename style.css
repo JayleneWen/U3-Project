@@ -1,112 +1,147 @@
 /* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
 
 
-.option-one-screen, 
-.option-two-screen, 
-.option-one-end, 
+.option-one-screen,
+.option-two-screen,
+.option-one-end,
 .option-two-end,
-.button3,
-.button4,
-.option-Answer-the-phone-call-screen
+.dead,
+.option-Answer-the-phone-call-screen,
+.alone,
+.kill-it,
+.running,
+.call,
+.restart
 {
-   display:none;
+  display: none;
 }
 
 
 /* Feel free to change any of the styling below!*/
 html,
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* Style the body with a background color or image if desired */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    text-align: center;
-    padding: 20px;
+  font-family: Arial, sans-serif;
+  background-image: url('https://th-thumbnailer.cdn-si-edu.com/vSnitgUqCQCRSx7mkHZtHZHry4U=/1072x720/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/04/8e/048ed839-a581-48af-a0ae-fac6fec00948/gettyimages-168346757_web.jpg');
+  /* background-color: #f0f0f0; */
+  text-align: center;
+  padding: 20px;
 }
 
 /* Style the title of your story */
 .title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width:auto;
+  text-align: center;
+  box-align: center;
+  box-sizing: auto;
+  
 }
 
 /* Style the story opening container */
 .story-opening {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 /* Style the story image */
 .story-opening img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
 }
 
 /* Style the story opening message */
 .story-opening h1 {
-    font-size: 20px;
-    margin-bottom: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 /* Style the buttons container */
 .buttons {
-    margin: 20px;
+  margin: 20px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* Style the option buttons */
 button {
-    font-size: 16px;
-    padding: 10px 20px;
-    margin: 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 
 /* Style the screens for option one and option two */
 .option-one-screen,
 .option-two-screen,
 .option-one-end,
-.option-two-end {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    margin-bottom: 10px;
+.option-two-end,
+.dead,
+.option-Answer-the-phone-call-screen,
+.alone,
+.kill-it,
+.running,
+.call {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
 }
 
 /* Style the images in the screens */
 .option-one-screen img,
 .option-two-screen img,
 .option-one-end img,
-.option-two-end img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
+.option-two-end img,
+.dead img,
+.option-Answer-the-phone-call-screen img,
+.alone img,
+.kill-it img,
+.running img,
+.call img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
 }
 
 /* Style the text in the screens */
 .option-one-screen h1,
 .option-two-screen h1,
 .option-one-end h1,
-.option-two-end h1 {
-    font-size: 20px;
-    margin-bottom: 20px;
+.option-two-end h1,
+.dead h1,
+.option-Answer-the-phone-call-screen h1,
+.alone h1,
+.kill-it h1,
+.running h1,
+.call h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
 }
