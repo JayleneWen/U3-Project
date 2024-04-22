@@ -15,7 +15,9 @@
 {
   display: none;
 }
-
+h3{
+  color: red;
+}
 
 /* Feel free to change any of the styling below!*/
 html,

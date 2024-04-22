@@ -28,9 +28,11 @@ let call = document.querySelector(".call");
 let check = document.querySelector('.check');
 let option2Two = document.querySelector(".option2-two");
 let restart = document.querySelector(".restart");
-  
 
 
+const input = document.getElementById("myInput");
+const inputValue = input.value;
+console.log(inputValue);
 
 
 
@@ -158,6 +160,7 @@ restart.addEventListener('click', function() {
   alone.style.display = "none";
   run.style.display = "none";
   running.style.display = "none";
+  dead.style.display = "none";
   });
 
 
